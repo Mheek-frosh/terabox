@@ -24,4 +24,7 @@
     <color name="terabox_facebook">#1877F2</color>
     <color name="terabox_badge_red">#E53935</color>
     <color name="ic_launcher_bg">#FFFFFF</color>
+    <color name="settings_secondary">#BDBDBD</color>
+    <color name="settings_logout_red">#D32F2F</color>
+    <color name="settings_switch_track_off">#E0E0E0</color>
 </resources>

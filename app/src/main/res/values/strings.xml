@@ -70,4 +70,17 @@
     <string name="drawer_help_center">Help Center</string>
     <string name="drawer_about">About TeraBox</string>
     <string name="drawer_version">v4.13.0</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_bind_email">Bind e-mail address</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_about_terabox">About TeraBox</string>
+    <string name="settings_about_us">About Us</string>
+    <string name="settings_night_mode">Night mode</string>
+    <string name="settings_ad_voice">Advertising voice</string>
+    <string name="settings_clear_cache">Clear all cache data</string>
+    <string name="settings_cache_size">62.4M</string>
+    <string name="settings_switch_account">Switch account</string>
+    <string name="settings_log_out">Log Out</string>
+    <string name="content_desc_back">Back</string>
 </resources>
