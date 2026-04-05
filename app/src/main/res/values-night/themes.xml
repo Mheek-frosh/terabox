@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Terabox" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/terabox_blue</item>
+        <item name="colorPrimaryVariant">@color/terabox_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/terabox_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowBackground">@color/terabox_background</item>
+    </style>
+
+    <style name="Theme.Terabox.Dashboard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/terabox_blue</item>
+        <item name="android:statusBarColor">@color/terabox_dashboard_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowBackground">@color/terabox_dashboard_bg</item>
+    </style>
+</resources>
