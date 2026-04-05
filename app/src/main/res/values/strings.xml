@@ -46,4 +46,28 @@
     <string name="content_desc_camera">Camera search</string>
     <string name="content_desc_filter">Filter</string>
     <string name="content_desc_add">Add</string>
+
+    <string name="drawer_user_name">Michael Usidamen</string>
+    <string name="drawer_switch_account">Switch account</string>
+    <string name="drawer_premium_header">Premium</string>
+    <string name="drawer_qr">QR code</string>
+    <string name="drawer_storage_used">5MB / 1024GB</string>
+    <string name="drawer_get_free_space">Get free space &gt;</string>
+    <string name="drawer_storage_breakdown">Permanent: 30GB    Time-limited: 994GB</string>
+    <string name="drawer_premium_banner_title">TeraBox Premium</string>
+    <string name="drawer_premium_banner_desc">2TB of space, and high-speed downloads</string>
+    <string name="drawer_shared">Shared</string>
+    <string name="drawer_trash">Trash</string>
+    <string name="drawer_auto_backup">Auto Backup</string>
+    <string name="drawer_scan">Scan</string>
+    <string name="drawer_space_analyzer">Space Analyzer</string>
+    <string name="drawer_personal_vault">Personal Vault</string>
+    <string name="drawer_benefits">Benefits</string>
+    <string name="drawer_gold_reward">+60Gold</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_settings_hint">Security, Log out</string>
+    <string name="drawer_webmaster">WebMaster</string>
+    <string name="drawer_help_center">Help Center</string>
+    <string name="drawer_about">About TeraBox</string>
+    <string name="drawer_version">v4.13.0</string>
 </resources>
