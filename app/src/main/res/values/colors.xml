@@ -27,4 +27,5 @@
     <color name="settings_secondary">#BDBDBD</color>
     <color name="settings_logout_red">#D32F2F</color>
     <color name="settings_switch_track_off">#E0E0E0</color>
+    <color name="files_tab_muted">#8E8E93</color>
 </resources>

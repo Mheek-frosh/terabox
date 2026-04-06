@@ -83,4 +83,14 @@
     <string name="settings_switch_account">Switch account</string>
     <string name="settings_log_out">Log Out</string>
     <string name="content_desc_back">Back</string>
+
+    <string name="files_screen_title">Files</string>
+    <string name="files_search_hint">Search in TeraBox</string>
+    <string name="files_tab_all">All</string>
+    <string name="files_tab_offline">Offline</string>
+    <string name="files_tab_starred">Starred</string>
+    <string name="files_sort_by_name">Sort by Name</string>
+    <string name="files_personal_vault">Personal Vault</string>
+    <string name="files_sample_pdf_title">TeraBox Beginner\'s Guide.pdf</string>
+    <string name="files_sample_pdf_meta">05/04/2026, 21:49  5.12MB</string>
 </resources>
