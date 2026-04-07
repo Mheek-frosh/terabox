@@ -99,4 +99,15 @@
     <string name="share_welcome_body">Easily share and manage your sharing and receiving records here with TeraBox.</string>
     <string name="share_select_files">Select files to share</string>
     <string name="content_desc_share_screen">Share</string>
+
+    <string name="message_tab_message">Message</string>
+    <string name="message_tab_friends">Friends</string>
+    <string name="message_in_app_title">In-app notification</string>
+    <string name="message_in_app_subtitle">You have not yet bound your email address…</string>
+    <string name="message_new_friends_title">New friends</string>
+    <string name="message_new_friends_subtitle">No message notifications for now</string>
+    <string name="message_sample_time">9:49 PM</string>
+    <string name="message_footer_bottom">— Already at the bottom of the page —</string>
+    <string name="message_friends_empty">No friends yet</string>
+    <string name="content_desc_add_friend">Add friend</string>
 </resources>

@@ -29,4 +29,8 @@
     <color name="settings_switch_track_off">#E0E0E0</color>
     <color name="files_tab_muted">#8E8E93</color>
     <color name="terabox_share_primary">#2B70F4</color>
+    <color name="message_icon_teal">#20C9C0</color>
+    <color name="message_icon_blue">#2B7BF2</color>
+    <color name="message_divider">#EEEEEE</color>
+    <color name="message_footer_muted">#AEAEB2</color>
 </resources>
