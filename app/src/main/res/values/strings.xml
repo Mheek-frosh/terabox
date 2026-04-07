@@ -93,4 +93,10 @@
     <string name="files_personal_vault">Personal Vault</string>
     <string name="files_sample_pdf_title">TeraBox Beginner\'s Guide.pdf</string>
     <string name="files_sample_pdf_meta">05/04/2026, 21:49  5.12MB</string>
+
+    <string name="share_screen_title">Share</string>
+    <string name="share_welcome_title">Welcome to Share</string>
+    <string name="share_welcome_body">Easily share and manage your sharing and receiving records here with TeraBox.</string>
+    <string name="share_select_files">Select files to share</string>
+    <string name="content_desc_share_screen">Share</string>
 </resources>
