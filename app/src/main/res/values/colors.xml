@@ -33,4 +33,9 @@
     <color name="message_icon_blue">#2B7BF2</color>
     <color name="message_divider">#EEEEEE</color>
     <color name="message_footer_muted">#AEAEB2</color>
+    <color name="transfer_banner_bg">#EDEAF5</color>
+    <color name="transfer_banner_text">#6B6B70</color>
+    <color name="transfer_empty_arrow_light">#8FC4FF</color>
+    <color name="transfer_empty_arrow_dark">#2B7BF2</color>
+    <color name="transfer_footer_muted">#AEAEB2</color>
 </resources>

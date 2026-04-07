@@ -110,4 +110,14 @@
     <string name="message_footer_bottom">— Already at the bottom of the page —</string>
     <string name="message_friends_empty">No friends yet</string>
     <string name="content_desc_add_friend">Add friend</string>
+
+    <string name="transfer_list_title">Transfer List</string>
+    <string name="transfer_tab_downloads">Downloads</string>
+    <string name="transfer_tab_uploads">Uploads</string>
+    <string name="transfer_banner_message">The download speed is related to the overall number of users of the app, and the speed is faster in free time</string>
+    <string name="transfer_empty_downloads">No Download Records</string>
+    <string name="transfer_empty_uploads">No Upload Records</string>
+    <string name="transfer_security_line">TeraBox guarantees your data security.</string>
+    <string name="transfer_view_details">View Details &gt;</string>
+    <string name="content_desc_close_banner">Dismiss</string>
 </resources>
