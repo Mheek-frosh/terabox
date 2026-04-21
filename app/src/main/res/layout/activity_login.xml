@@ -37,12 +37,10 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:text="@string/login_legal" />
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/centerGroup"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@id/textLegal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +53,10 @@
             android:layout_height="88dp"
             android:contentDescription="@string/app_name"
             android:scaleType="fitCenter"
-            android:src="@drawable/teralogo" />
+            android:src="@drawable/teralogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textTitle"
@@ -65,7 +66,10 @@
             android:text="@string/login_title"
             android:textColor="@color/terabox_text_primary"
             android:textSize="26sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageLogo" />
 
         <TextView
             android:id="@+id/textSubtitle"
@@ -74,7 +78,10 @@
             android:layout_marginTop="8dp"
             android:text="@string/login_subtitle"
             android:textColor="@color/terabox_text_primary"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textTitle" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/buttonApple"
@@ -84,7 +91,8 @@
             android:background="@drawable/bg_login_button_outline"
             android:clickable="true"
             android:focusable="true"
-            android:foreground="?attr/selectableItemBackground">
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintTop_toBottomOf="@id/textSubtitle">
 
             <ImageView
                 android:id="@+id/iconApple"
@@ -118,7 +126,8 @@
             android:background="@drawable/bg_login_button_outline"
             android:clickable="true"
             android:focusable="true"
-            android:foreground="?attr/selectableItemBackground">
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintTop_toBottomOf="@id/buttonApple">
 
             <ImageView
                 android:id="@+id/iconGoogle"
@@ -144,12 +153,14 @@
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/loginSocialRow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonGoogle">
 
             <ImageButton
                 android:id="@+id/buttonFacebook"
@@ -159,11 +170,16 @@
                 android:contentDescription="@string/content_desc_facebook"
                 android:padding="14dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_facebook_f" />
+                android:src="@drawable/ic_facebook_f"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <Space
+                android:id="@+id/loginSocialSpace1"
                 android:layout_width="28dp"
-                android:layout_height="0dp" />
+                android:layout_height="0dp"
+                app:layout_constraintStart_toEndOf="@id/buttonFacebook" />
 
             <ImageButton
                 android:id="@+id/buttonEmail"
@@ -173,11 +189,16 @@
                 android:contentDescription="@string/content_desc_email"
                 android:padding="14dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_mail_outline" />
+                android:src="@drawable/ic_mail_outline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/loginSocialSpace1"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <Space
+                android:id="@+id/loginSocialSpace2"
                 android:layout_width="28dp"
-                android:layout_height="0dp" />
+                android:layout_height="0dp"
+                app:layout_constraintStart_toEndOf="@id/buttonEmail" />
 
             <ImageButton
                 android:id="@+id/buttonPhone"
@@ -187,7 +208,10 @@
                 android:contentDescription="@string/content_desc_phone"
                 android:padding="14dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_phone_outline" />
-        </LinearLayout>
-    </LinearLayout>
+                android:src="@drawable/ic_phone_outline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/loginSocialSpace2"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
